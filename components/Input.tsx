@@ -22,7 +22,7 @@ const Input = ({
   return (
     <div className="flex justify-start w-screen border-y items-start">
       <SimplMDE
-        className={`flex justify-start prose p-3 outline-none w-screen transition`}
+        className={`flex justify-start p-3 outline-none w-screen transition`}
         onChange={setText}
         options={{
           autofocus: true,
