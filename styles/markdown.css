@@ -16,7 +16,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: inherit;
-  width: 200vh;
+  width: calc(100vw - 12px);
 }
 
 .EasyMDEContainer {

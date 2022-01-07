@@ -18,9 +18,9 @@ const Input = ({
   setPreview?: any;
 }) => {
   return (
-    <div className="flex justify-start w-screen border-y items-start">
+    <div className="flex justify-start border-y">
       <SimplMDE
-        className={`flex justify-start p-3 outline-none w-screen transition`}
+        className={`flex justify-start p-3 outline-none transition`}
         onChange={setText}
         options={{
           autofocus: true,
