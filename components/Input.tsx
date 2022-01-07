@@ -10,8 +10,6 @@ const Input = ({
   placeholder,
   setText,
   text,
-  preview,
-  setPreview,
 }: {
   placeholder?: string;
   setText?: any;
