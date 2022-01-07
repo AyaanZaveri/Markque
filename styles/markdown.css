@@ -1,0 +1,35 @@
+.EasyMDEContainer .editor-toolbar {
+    font-size: 1rem;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+    position: sticky;
+    z-index: 5;
+    background-color: white;
+}
+
+.EasyMDEContainer div.CodeMirror {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: inherit;
+    width: 200vh;
+}
+
+
+.EasyMDEContainer {
+    width: 1000px;
+  }
+  
+
+.EasyMDEContainer div.editor-statusbar {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* font-mono */
+    position: fixed;
+    z-index: 50;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    color: #0c4a6e; /* slate 400 */
+    background-color: #e0f2fe; /* slate 100 */
+    border-top: 1px solid rgb(156, 163, 175);
+}

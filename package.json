@@ -11,6 +11,7 @@
     "@mui/material": "^5.2.7",
     "@tailwindcss/typography": "^0.5.0",
     "crypto-js": "^4.1.1",
+    "easymde": "^2.15.0",
     "highlight.js": "^9.18.5",
     "lowlight": "^2.5.0",
     "next": "latest",
@@ -19,9 +20,11 @@
     "react-highlight": "^0.14.0",
     "react-icons": "^4.3.1",
     "react-markdown": "^7.1.2",
+    "react-simplemde-editor": "^5.0.2",
     "react-syntax-highlighter": "^15.4.5",
     "rehype-highlight": "^5.0.2",
-    "remarkable": "^2.0.1"
+    "remarkable": "^2.0.1",
+    "simplemde": "^1.11.2"
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.4.0",
@@ -31,7 +34,9 @@
     "@types/react-highlight": "^0.12.5",
     "@types/react-syntax-highlighter": "^13.5.2",
     "@types/remarkable": "^2.0.3",
+    "@types/simplemde": "^1.11.8",
     "autoprefixer": "^10.4.0",
+    "browser-env": "^3.3.0",
     "eslint": "8.5.0",
     "eslint-config-next": "12.0.7",
     "postcss": "^8.4.5",
